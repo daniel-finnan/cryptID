@@ -2,3 +2,8 @@
 %project=cryptID
 %uri=https://github.com/daniel-finnan/cryptID
 
+schema 2026-07-03T11:48:06Z Daniel Finnan <dan@custom-made.org.uk> # Create schema.
+initdb 2026-07-03T12:09:58Z Daniel Finnan <dan@custom-made.org.uk> # Create types and tables.
+function_insert_ledger 2026-07-03T13:06:41Z Daniel Finnan <dan@custom-made.org.uk> # Function for inserting json data into ledger table.
+function_insert_auxiliary_token 2026-07-03T13:25:06Z Daniel Finnan <dan@custom-made.org.uk> # Function for inserting json data into auxiliary token table.
+function_insert_equivalent_token 2026-07-03T13:48:41Z Daniel Finnan <dan@custom-made.org.uk> # Function for inserting json data into equivalent token table.
