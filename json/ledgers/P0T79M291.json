@@ -1,0 +1,32 @@
+{
+  "Header": {
+    "DLI": "P0T79M291",
+    "DLTType": "1",
+    "templateVersion": "v2.0.0"
+  },
+  "Informative": {
+    "LongName": "Avalanche C Chain",
+    "IssuerIdentifiers": [],
+    "MaintainerIdentifiers": []
+  },
+  "Normative": {
+    "AnchorBlockHash": "0x31ced5b9beb7f8782b014660da0cb18cc409f121f408186886e1ca3e8eeca96b",
+    "AnchorBlockHashAlgorithm": "Keccak-256",
+    "AnchorBlockUTCTimestamp": "2020-09-10T00:00:00",
+    "AnchorBlockHeight": 0,
+    "Forks": []
+  },
+  "Metadata": {
+    "recVersion": 1,
+    "recDateTime": "2025-12-12T01:48:57",
+    "Provisional": false,
+    "Private": false,
+    "Disputed": false,
+    "Deleted": false,
+    "statusDate": "2025-12-12T00:00:00",
+    "Certified": false,
+    "Issued": true,
+    "Lapsed": false,
+    "Retired": false
+  }
+}

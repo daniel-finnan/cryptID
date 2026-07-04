@@ -1,0 +1,41 @@
+{
+  "Header": {
+    "DLI": "8TNNSX0RM",
+    "DLTType": "1",
+    "templateVersion": "v2.0.0"
+  },
+  "Informative": {
+    "LongName": "Flow",
+    "IssuerIdentifiers": [],
+    "MaintainerIdentifiers": []
+  },
+  "Normative": {
+    "AnchorBlockHash": "LOST-HFX40B3W9",
+    "AnchorBlockHashAlgorithm": "Keccak-256",
+    "AnchorBlockHeight": 0,
+    "Forks": [
+      {
+        "ForkReferenceDLI": "8TNNSX0RM",
+        "ForkBlockHeight": "4132133",
+        "ForkBlockUTCTimestamp": "2020-08-18 16:57:12",
+        "ForkBlockHash": "0bce190ae9a09b628fbc6918918b280e59b799b62c89ba28ba1f617c9e37c045",
+        "ForkBlockHashAlgorithm": "Keccak-256",
+        "ConsensusMechanismChangeResponse": "Y",
+        "DigitalTokenCreationResponse": "N"
+      }
+    ]
+  },
+  "Metadata": {
+    "recVersion": 1,
+    "recDateTime": "2025-12-12T01:48:57",
+    "Provisional": false,
+    "Private": false,
+    "Disputed": false,
+    "Deleted": false,
+    "statusDate": "2025-12-12T00:00:00",
+    "Certified": false,
+    "Issued": true,
+    "Lapsed": false,
+    "Retired": false
+  }
+}
