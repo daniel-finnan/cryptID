@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "/.github",
+  "/docs",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[project]
+name = "pycryptid"
+version = "0.0.1"
+authors = [
+  { name="Daniel Finnan", email="dan@custom-made.org.uk" },
+]
+description = "Python API for CryptID database and digital token identification standards."
+keywords = ["crypto", "dtif", "digital token identifier", "blockchain"]
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+dependencies = [
+  "psycopg>=3.3.4",
+  "psycopg-binary>=3.3.4",
+  "python-dotenv>=1.2.2"
+]
+
+[project.urls]
+Homepage = "https://github.com/daniel-finnan/cryptID"
+Issues = "https://github.com/daniel-finnan/cryptID/issues"
