@@ -1,8 +1,0 @@
-{
-    "storage": {
-        "dtif": {
-            "tokens": "./json/tokens/",
-            "ledgers": "./json/ledgers/"
-        }
-    }
-}
